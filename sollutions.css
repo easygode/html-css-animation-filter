@@ -35,6 +35,14 @@ Esercizio 3
 Esercizio 4
 -----------------*/
 
+.ex-4-square {
+    transition: 4s;
+}
+.ex-4-square:hover {
+    /*display: none*/
+    opacity: 0;
+}
+
 
 /*--------------- 
 Esercizio 5
