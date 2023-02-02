@@ -147,6 +147,25 @@ Esercizio 11
 Esercizio 12
 -----------------*/
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: sposta 4s; linear;
+}
+
+@keyframes sposta {
+    0% {
+        left: 10%;
+    }
+    30% {
+        left: 40%;
+    }
+    70% {
+        left: 60%;
+    }
+    100% {
+        right 10%;
+    }
+}
+
 
 /*--------------- 
 Esercizio 13
