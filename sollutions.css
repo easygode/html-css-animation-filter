@@ -109,6 +109,20 @@ Esercizio 9
 Esercizio  10
 -----------------*/
 
+.ex-10-icon {
+    animation: gira 2s infinite;
+}
+
+@keyframes gira {
+
+    0% {
+        transform: rotate(1turn);
+    }
+
+    50% {
+        transform: rotate(2turn);
+    }
+}
 
 /*--------------- 
 Esercizio 11
