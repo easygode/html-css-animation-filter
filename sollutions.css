@@ -61,6 +61,9 @@ Esercizio 5
 Esercizio 6
 -----------------*/
 
+.ex-6-img:hover {
+    filter: grayscale(2);
+}
 
 /*--------------- 
 Esercizio 7
