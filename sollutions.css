@@ -43,12 +43,19 @@ Esercizio 4
     opacity: 0;
 }
 
-
 /*--------------- 
 Esercizio 5
 -----------------*/
 
-
+.ex-5-square {
+    transition: 2s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(.6);
+}
 
 /*--------------- 
 Esercizio 6
