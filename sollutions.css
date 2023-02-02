@@ -13,6 +13,13 @@ Esercizio 1
 Esercizio 2
 -----------------*/
 
+.ex-2-square {
+    transition: 4s;
+}
+.ex-2-square:active {
+    width: 100%;
+}
+
 
 /*--------------- 
 Esercizio 3
