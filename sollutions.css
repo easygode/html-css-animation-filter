@@ -79,6 +79,18 @@ transition: 4s;{
 Esercizio 8
 -----------------*/
 
+.ex-8-img {
+    transition: 4s;
+}
+.ex-8-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 40px;
+}
+
+.ex-8-img:active {
+    filter: grayscale(.6) sepia(.5);
+    width: 50%;
+}
 
 /*--------------- 
 Esercizio 9
