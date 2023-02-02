@@ -88,13 +88,22 @@ Esercizio 8
 }
 
 .ex-8-img:active {
-    filter: grayscale(.6) sepia(.5);
+    filter: grayscale(2) sepia(.5);
     width: 50%;
 }
 
 /*--------------- 
 Esercizio 9
 -----------------*/
+
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:hover {
+    filter: grayscale(2) sepia(.5);
+    border-radius: 40px;
+    transform: scale(2);
+}
 
 /*--------------- 
 Esercizio  10
