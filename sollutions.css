@@ -166,7 +166,36 @@ Esercizio 12
     }
 }
 
-
 /*--------------- 
 Esercizio 13
 -----------------*/
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: girocompleto 2s infinite;
+}
+@keyframes girocompleto {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -20x;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -30px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
